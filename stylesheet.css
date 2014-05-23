@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style>
+
+@font-face{
+	font-family:nikaia;
+	
+	
+	src: local('nikaia') , url('Nikaia.otf');
+}
+@font-face{
+	font-family:nikaiait;
+	
+	
+	src: local('nikaiait') , url('Nikaia_italic-webfont.woff');
+}
+@font-face{
+	font-family:myriadli;
+	
+	
+	src: local('myriadli') , url('myriadpro-light-webfont.woff');
+}
+
+
+@font-face{
+	font-family:myriadb;
+	
+	
+	src: local('myriadb') , url('MyriadPro-Bold.otf');
+}
+@font-face{
+	font-family:Tt250;
+	
+	
+	src: local('Tt250') , url('TitilliumText250wt.otf');
+}
+@font-face{
+	font-family:Tt800;
+	
+	
+	src: local('Tt800') , url('TitilliumText800wt.otf');
+}
+
+@font-face{
+	font-family:vegur;
+	
+	
+	src: local('vegur') , url('Vegur-L 0602.woff');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{background-image:url(background.png); margin:0px; background-repeat:repeat-x;}
+#head{ position:absolute; top:0px; left:190px; height:76px; width: 964px;background-image:url(menubar.png);}
+
+#head1{ position:absolute; top:12px; left:5px; height:50px; width:150px; background-color:none; font-size:30px; font-style:italic; color:#e6e3bb; text-align:center; line-height:45px; font-family:nikaiait; font-weight:bold;}
+#head2{ position:absolute; top:12px; left:170px; background-color:; width:780px; height:50px; font-family:myriadli;} 
+#menu1,#menu2{height:50px;width:75px; float:left; font-size:14px; color:#e6e3bb; line-height:45px; text-align:center;}
+#menu1:hover{height:50px;width:75px; float:left; font-size:14px; color:#8e4423; line-height:45px; text-align:center;}
+#pass{position:absolute ; top: 12px; left:480px;background-image:url(signin.png); height:30px; width:120px; font-size:14px; color:#7b7a6d; text-align:center; line-height:30px;}
+#sign{position:absolute; top:12px; left:610px; background-image:url(signin2.png); height:30px; width:110px;font-size:14px; color:#e6e3bb; text-align:center; line-height:30px;}
+#im{ position:absolute; top:82px; left:365px;}
+#content{ position:absolute; top:350px; left:190px; background-image:url(contentback.png); height:1400px; width:1000px; background-repeat:no-repeat;}
+#feature{ position:absolute; top:10px; left:390px; background-color:none; height:20px; width:190px; font-size:16px; color:#ffffff; text-align:center; font-style:italic; font-weight:bold; font-family:nikaiait;}
+#a1{ position:absolute; top:1px; left:0px;}
+#a2{ position:absolute; top:1px; left:176px;}
+#krill{ height:120px; width:900px; position:absolute; top:73px; left:20px; background-color:none; margin:0px;}
+#im1{ position:absolute; top:2px; left:5px;}
+#im2{ position:absolute; top:2px; left:145px;}
+#im3{ position:absolute; top:2px; left:285px;}
+#krill2{ height:120px; width:470px; position:absolute; top:3px; left:440px; background-color:none; margin:0px; }
+#t1{ position:absolute; top:2px; left:40px; width:430px; height: 20px; background-color:none; font-size:18px; color:#8e4423; font-weight:bold;font-family:myriadb;}
+#t2{ position:absolute; top:24px; left:40px; width:450px; height: 20px; background-color:none; font-size:12px; color:#646363; font-style:italic;font-family:myriadli;}
+#t3{ position:absolute; top:50px; left:2px; width:470px; height: 40px; background-color:none; font-size:13px; color:#7b7a6d;font-family:myriadli;}
+#line1{ position:absolute; top:210px; left:29px; height:1px; width:900px; background-color:#393b3d;}
+#steps{ position:absolute; top:210px; left:29px; height:800px; width:900px; background-color:none;}
+#st1{position:absolute; top:15px; left:100px;}
+#st2{position:absolute; top:15px; left:400px;}
+#st3{position:absolute; top:15px; left:700px;}
+#research{position:absolute; top:130px; left:50px; background-color:none; height:300px; width:200px;
+}
+#work{position:absolute; top:130px; left:360px; background-color:none; height:300px; width:200px;}
+#deliver{position:absolute; top:130px; left:660px; background-color:none; height:300px; width:200px;}
+#stepbutton{ position:absolute; top:155px; left:55px; background-image:url(stepbutton.png); height:29px; width:90px; font-size:13px; color:#e6e3bb; text-align:center; line-height:30px; font-family:myriadli;}
+#below{ position:absolute; top:810px; left:10px; height:220px; width:950px; background-color:;}
+#below1{ position:absolute; top:0px; left:0px; height:220px; width:430px; background-color:;}
+#below2{ position:absolute; top:0px; left:435px; height:220px; width:500px; background-color:;}
+#phag1{ float:right; position:absolute; top:25px; left:250px;  margin-right:25px;}
+#phag2{ margin-top:20px; margin-left:10px;}
+#phag3{ position:absolute; top:50px; left:10px; height:80px; width:240px; font-size:13px; color:#7b7a6d; font-family:myriadli;}
+#phag4{ position:absolute; top:140px; left:10px; height:80px; width:380px;  font-size:13px;color:#7b7a6d;font-family:myriadli;}
+#split{position:absolute; top:15px; left:420px;}
+#news{ position:absolute; top:25px; left : 10px; height:80px; width:400px; background-color;; color:#8e4423; font-size:18px; font-style:italic;}
+#tweet{ position:absolute; top:110px ; left:10px; height:100px; width:500px; background-color:;}
+#signup{  position:absolute; top:30px; left: 0px; height:40px; width:240px; border:1px solid #3a3939; -webkit-border-radius:6px; background: -webkit-linear-gradient(#000, #3a3939) ; color:#757468; font-size:14px; font-style:italic; line-height:40px; padding-left:20px; font-family:myriadli;}
+#signup1{ position:absolute; top:1px; left:177px; height:38px;width:81px; background-image:url(signupbutton.png); font-style:normal; text-align:center;color:#ffffff; font-size:13px; font-family:nikaiait;}
+#follow{ position:absolute; top:10px; left:5px; height:58px;width:60px; background:-webkit-linear-gradient(#000, #3a3939)  ; border:1px solid #3a3939; -webkit-border-radius:4px; }
+#link{ position:absolute; top:10px; left:75px; height:58px;width:405px;   background:-webkit-linear-gradient(#000, #3a3939); border:1px solid #3a3939; -webkit-border-radius:4px;}
+#logo{position:absolute; top:13px;
+left:15px;}
+#followbutton{ position:absolute; top:38px; left:1px; background-image:url(followbutton.png) ; height:20px; width: 58px; text-align:center; color:#FFF; font-size:13px; font-style:italic; line-height:20px; font-family:nikaiait;}
+#tweettext{position:absolute; top:15px; left:10px; height:40px; width:450px; background-color:; font-size:14px;}
+
+#retweet{ position:absolute; top:38px; left:382px;}
+
+#foot{position:absolute; top:1050px; left:3px;height:240px; width:960px; background-color: ;}
+#flickr{position:absolute; top:0px; left:3px;height:240px; width:300px; background-color#091;}
+#clients{position:absolute; top:0px; left:332px;height:240px; width:200px; background-color:;}
+#friends{position:absolute; top:0px; left:564px;height:240px; width:190px; background-color:;}
+#pages{position:absolute; top:0px; left:806px;height:240px; width:140px; background-color:;}
+#footsplit{ position:absolute; top:55px; left:15px;height:1px; width:280px; background-color:#7b7a6d;}
+#gallery{ position:absolute; top:60px; left:10px;height:150px; width:290px; background-color:;}
+#img{float:left; margin:5px;}
+#footsplit2{ position:absolute; top:55px; left:0px;height:1px; width:200px; background-color:#7b7a6d; ;}
+#footsplit3{ position:absolute; top:55px; left:0px;height:1px; width:190px; background-color:#7b7a6d;}
+#footsplit4{ position:absolute; top:55px; left:0px;height:1px; width:140px; background-color:#7b7a6d;}
+#copy{position:absolute; top:1300px; left:3px; height:30px; width:960px; background-color:; color:#725142; font-size:12px; line-height:35px; }
+#slide{position:absolute; top:555px; left:25px; height:207px;
+width:920px; background-image: url(slide.png);}
+#gizmodo{position:absolute ; top:65px; left:105px; height: 140px; width:220px; background-color:;}
+#freelance{position:absolute ; top:65px; left:370px; height: 140px; width:190px; background-color:;}
+#mashable{position:absolute ; top:65px; left:590px; height: 145px; width:200px; background-color:;	}
+#drop{ position:absolute; top:65px; left:500px; height:150px; width:230px; background-image:url(dropdown.png); display:none;}
+#menu2:hover{
+	div[class="menu1"]
+	{ display:block;
+	}
+}
+
+
+</style>
